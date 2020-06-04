@@ -24,9 +24,9 @@
 			<ul>
 				<li><a href="">Home</a></li>
 				<li><a href="">|About</a></li>
-				<li><a href="https://www.figma.com/proto/xRMXmHu9STYRjeNVaZANBP/Untitled?node-id=1%3A3&scaling=scale-down" target="_blank">|Figma Prototype</a></li>
+				<li><a onclick="gogl()" href="https://www.figma.com/proto/xRMXmHu9STYRjeNVaZANBP/Untitled?node-id=1%3A3&scaling=scale-down" target="_blank">|Figma Prototype</a></li>
 			                   <li><a href="toolifythingie.html">|Early prototype</a></li>
-                <li><a href="#mc_embed_signup">|Signup</a></li>                                     
+                <li><a onclick="gogl3()" href="#mc_embed_signup">|Signup</a></li>                                     
                                          </ul>
 		</nav>
 		</header>
@@ -78,7 +78,7 @@
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">
     
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7383f7c3f54479c57b606260f_c57690d62c" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" onclick="display()"></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" onclick="display()" onclick="gogl()"></div>
     </div>
 </form>
 </div>
@@ -104,10 +104,27 @@ $('#mc-embedded-subscribe').click(function(e){
 
 function display() {
 document.getElementById("subscribeThanks").innerHTML = "Thank you for subscribing";
-
+}
+function gogl1() {
 gtag("event", "Signup button");
 	
 	gtag("event", "Signup", {
+   	"event_category": "Landing"
+ });
+}
+			
+function gogl2() {
+gtag("event", "Figma prototype");
+	
+	gtag("event", "Figma proto", {
+   	"event_category": "Landing"
+ });
+}
+			
+function gogl3() {
+gtag("event", "Signup redirect");
+	
+	gtag("event", "Signup redirect", {
    	"event_category": "Landing"
  });
 }
