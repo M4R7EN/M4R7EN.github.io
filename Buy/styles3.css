@@ -1,0 +1,204 @@
+html {
+  scroll-behavior: smooth;
+ }
+ 
+body {
+font-family: 'Roboto', sans-serif;
+
+width: 90%;
+height: 100%;
+margin: auto;
+}
+
+.bg-image {
+ 
+  background-image: url("https://imgur.com/EqAdhIl.png");
+ background-attachment: fixed;
+
+
+}
+
+.theheader{
+	background-color: #f58f29;
+	padding: .1em;
+	margin: 0;
+	
+}
+
+#logo {
+  color: black;
+  padding: 15px;
+  text-align: center;
+  width: 6em;
+  height: 6em;  
+
+}
+
+.theheader li{
+	display:inline;
+	
+}
+a{
+	text-decoration: none;
+	color: white;
+}	
+
+main {
+padding-top: 4em;
+}
+
+img {
+	lenght: 30%;
+	width: 30%;
+}
+
+div {
+	display: inline-grid;
+    height: 20em;
+	width: 12em;
+	border: 3px solid black;
+	padding: 1em;
+	margin: 1em;
+	background-color: #FFFFFF;
+	padding-top: 4em;
+
+}
+
+itemsHTML {
+	display: block;
+    height: 15em;
+	width: 12em;
+	border: 3px solid black;
+	padding: 1em;
+	margin: 1em;
+
+}
+
+#btn {
+	background-color: solid black;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #fcefd2;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#remBtn {
+	display: block;
+	margin-left: 1rem;
+	background-color: #fc5603;'
+	text-align: center;
+    text-decoration: none;
+	padding: 10px;
+	text-align: right;
+	
+}
+
+#demo {
+	margin-left: 1rem;
+	display: inline;
+	color: white;
+		text-align: right;
+}
+
+#demo2 {
+	display: inline;
+	color: white;
+	text-align: right;
+}
+
+#atcBtn {
+	background-color: #4CAF50;'
+	height: 5em;
+	padding: 0.4em;
+	border: none;
+	}
+	
+#remBtnE {
+	display: block;
+	margin-left: 1rem;
+	background-color: #fc5603;'
+	text-align: center;
+    text-decoration: none;
+	padding: 10px;
+	margin-top: 0.5em;
+	border: none;
+	text-align: right;
+	}
+	
+#demo4 {
+	display: block;
+	margin-left: 1rem;
+	background-color: #4CAF50;'
+	text-align: center;
+    text-decoration: none;
+	padding: 5px;
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+	border: none;
+		text-align: right;
+}
+
+#demo3 {
+	display: block;
+	color: white;
+	margin-left: 1rem;
+		text-align: right;
+	
+}
+
+.bottom-footer{
+	background-color: #1e2028;
+	padding: .1em;
+	margin: 0;
+}
+.bottom-footer li{
+	display: inline;
+	padding: .9em
+}
+.bottom-footer p{
+	text-align: right;
+	color: #fcefd2;
+}
+
+
