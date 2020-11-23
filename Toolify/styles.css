@@ -33,16 +33,16 @@ html {
 }	      
 
         
-.pictable{
-    	background-color: f58f29;
-		border-radius: 25px;
-    }    
+.pictable {
+ background-color: f58f29;
+ border-radius: 25px;
+}    
     
- #rateing{
-   font-size: 2em;
+#rateing{
+font-size: 2em;
 	
       
-    }    
+}    
  
     
     body{
@@ -54,11 +54,11 @@ html {
 	color: white;
   background-color: #1e2028;
     }
-.main-header{
-	background-color: f58f29;
-	padding: .1em;
-	margin: 0;
-	border-radius: 0px 0px 25px 25px;
+.main-header {
+background-color: f58f29;
+padding: .1em;
+margin: 0;
+border-radius: 0px 0px 25px 25px;
 	
 }
 
