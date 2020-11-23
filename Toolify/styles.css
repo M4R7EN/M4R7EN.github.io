@@ -45,7 +45,7 @@ font-size: 2em;
 }    
  
     
-    body{
+    body {
 	font-family: 'Raleway', sans-serif;
 	padding: 0;
 	margin: auto;
@@ -63,14 +63,14 @@ border-radius: 0px 0px 25px 25px;
 }
 
 
-.main-header li{
+.main-header li {
 	display:inline;
 }
 a{
 	text-decoration: none;
 	color: white;
 }
-.home-image{	
+.home-image {	
 	background-image: url("https://imgur.com/EqAdhIl.png");
 	background-attachment: fixed;
 	height: 80%;
@@ -80,7 +80,7 @@ a{
   background-color: #1e2028;
   border-radius: 25px;
 }
-.home-text{
+.home-text {
 	text-align: center;
 	position: relative;
 	top: 50%;
