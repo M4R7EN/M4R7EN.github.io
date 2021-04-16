@@ -1,0 +1,441 @@
+#feedback {
+  color: orange;
+}
+
+#screen-chat {
+  display: none;
+}
+
+.message-container {
+  margin: 3px;
+  background: #e1e6e2;
+  padding: 0.5em;
+}
+
+.message-container p {
+  display: inline;
+  margin: 0.25em;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: rgb(235, 235, 235);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 70% 100%
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+
+#button_start {
+  background-color: #ffac12;
+  border: none;
+  color: rgb(235, 235, 235);
+  padding: 16px 32px;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  
+}
+
+.header {
+	overflow: hidden;
+  display: inline;
+}
+
+.categories {
+	overflow: hidden;
+	display: inline;
+}
+
+.header_button {
+	margin: 0 auto;
+  padding-right: 4em;
+	font-size: 10px;
+	display: inline;
+	padding: 1em;
+	color: white;
+}
+
+#category-div {
+  padding-top: 0.6em;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #292C2F;
+  border-radius: 1px;
+}
+
+#category3_button{
+  margin-right: 15%;
+}
+
+#home_button{
+  margin-left: 15%;
+}
+
+
+#drop-down {
+  background: #0C7C59;
+  display: flex;
+  justify-content: space-around;
+  text-align: flex-start;
+  padding: 0.2em;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+#main-input-box {
+  width: 20em;
+  height: 2.5em;
+  font-weight: bold;
+  color: #292C2F;
+  border: none;
+  border-radius: 2px;
+  margin-left: 1%;
+}
+
+#sandwich {
+  width: 40px;
+  height: 35px;
+  margin: 0 auto;
+}
+
+#logged-in-as {
+}
+
+#signin_button{
+  color: white;
+}
+
+.catergory_button {
+	margin: 0 auto;
+	font-size: 2em;
+	display: inline;
+	color: white;
+}
+
+#main-category-button {
+	font-size: 2em;
+	color: white;
+  display: inline;
+  font-weight: bold;
+  padding-right: 0.5em;
+}
+
+.header_button:hover {
+	color: #0C7C59;
+  text-decoration: none;
+}
+
+#menu-buttons {
+  background-color: #292C2F; 
+}
+
+#cool-colour {
+	background-color: #292C2F; 
+}
+
+#small_logo {
+	height: 4em;
+	width: 4em;
+	margin-left: 15%;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#button_start {
+  background-color: #0C7C59; 
+  color: white; 
+
+}
+
+#button_start:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #0C7C59;
+}
+
+#email {
+  width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: white;
+  border-bottom: 2px solid #0C7C59;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#password {
+  width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: white;
+  border-bottom: 2px solid #0C7C59;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-screen{
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+
+.dropdown-content{
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 7.5%;
+  background-color: white;
+  padding: 1em;
+  border: 1px solid #292C2F;
+}
+
+.dropdown-item {
+  border: 1px solid #292C2F;
+  padding: 4.5px, 4px, 0px, 0px;
+  margin: 2px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 567em) {
+    body {
+      margin-bottom: 200px;
+    }
+    .footer {
+      height: 260px;
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+.btn btn-secondary-outline btn-lg {
+  background-color: #1f2022;
+}
+
+form-group text-xs-right {
+  background-color: #1f2022;
+}
+
+.item{
+  display: flex;
+  border: 0.5px solid black;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  background-color: white;
+  border-radius: 2px;
+}
+
+#squareGrid {
+  padding-right: 5.5em;
+  padding-left: 5.5em;
+  --content-width: 40vw;
+  --gutter: 30px;
+  --columns: 4;
+  --row-size: calc(
+    ( var(--content-width) - (var(--gutter) * (var(--columns) - 1))
+    ) / var(--columns)
+  );
+  display: grid;
+  width: 100%;
+  max-width: var(--content-width);
+  grid-template-columns: repeat(var(--columns), 1fr);
+  grid-auto-rows: var(--row-size);
+  grid-column-gap: var(--gutter);
+  grid-row-gap: var(--gutter);
+  padding-top: 4em;
+  margin: 0;
+ 
+
+}
+
+#rentmessag {
+  padding-top: 5em;
+  display: none;
+  text-align: center;
+}
+
+@media (min-width: 450px){
+  #squareGrid {
+    --columns: 1;
+    --content-width: 50vw;
+  }
+}
+
+@media (min-width: 850px) {
+  #main-input-box {
+    width: 40em;
+    height: 2em;
+}
+
+#squareGrid {
+    --columns: 3;
+    --content-width: 80vw;
+}
+}
+
+@media (min-width: 1200px){
+  #squareGrid {
+    --columns: 5;
+    --content-width: 80vw;
+  }
+}
+
+@media (min-width: 1920px){
+  #squareGrid {
+    --columns: 8;
+    --content-width: 80vw;
+  }
+}
+
+@media (min-width: 2560px){
+  #squareGrid {
+    --columns: 7;
+    --content-width: 80vw;
+  }
+}
+
+#messages {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0em 2em 0em 2em;
+}
+
+#message_box {
+  padding: 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+#email_box {
+  font-size: 10px;
+  background-color: #4F5D75;
+  color: white;
+  padding: 3px;
+}
+
+#timestamp_box {
+  font-size: 11px;
+  background-color: #EC6A32;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.item-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#product-image {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+#rent-button {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  background-color: #0C7C59;
+  border-radius: 2px; 
+  color: white;
+  border: none;
+  text-decoration: none;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+#main_screen_logo {
+  width: 27em;
+  height: 10em;
+  margin-top: 15em
+}
+
+#rent-button:hover {
+  background-color: rgba(12, 124, 88, 0.877);
+}
+
+#rently-login-screen {
+  display: none;
+}
+
+#rently-main-screen {
+  display: block;
+}
+
+#screen-authentication {
+text-align: center;
+}
+
+
+
+

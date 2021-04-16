@@ -1,0 +1,218 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"> 
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Rently</title>
+
+		<script src="https://www.googletagmanager.com/gtag/js?l=dataLayer&amp;id=G-1BE9GE3Z1Y" async="">
+
+		</script>
+	</head>
+
+	<body data-new-gr-c-s-check-loaded="14.997.0" data-gr-ext-installed="" cz-shortcut-listen="true" onload="isuserlogged()">
+	<div id="rently-main-screen">
+    <header class="header">
+      <div id="menu-buttons">
+        <h1 class="header_button" id="home_button" >HOME</h1>
+        <h1 class="header_button" id="about_button">ABOUT</h1>
+        <a class="header_button" id="signin_button" onclick="rentlySignin()">SIGN IN</a>
+        <h1 class="header_button" id="logged-in-as"></h1>
+      </div>
+
+      <div id="cool-colour">
+        <img id="small_logo" onclick="isuserlogged()" onclick="loadMessages();" src="https://imgur.com/zN31G8q.png"></img>
+        <input id="main-input-box"></input>
+      </div>
+
+      <div id="category-div">
+        <div id="drop-down">
+          <img onclick="dropDownApply()" id="sandwich" src="https://imgur.com/zc5UmqK.png"></img>
+          <h1 onclick="dropDownClose()" id="main-category-button" id="category-button">Categories</h1>
+        </div>
+        <h1 class="catergory_button" id="category1_button" >Electronics</h1>
+        <h1 class="catergory_button" id="category2_button">Home appliances</h1>
+        <a class="catergory_button" id="category3_button">Tools</a>
+      </div>
+    </header>
+
+      <div id="screen-authentication">
+      </div>
+
+
+      <div id="main-screen"> 
+          <div id="dropdown-content" class="dropdown-content">
+            <a class="dropdown-item" href="#">Electronics</a>
+            <a class="dropdown-item" href="#">Home appliances</a>
+            <a class="dropdown-item" href="#">Hobbies</a>
+            <a class="dropdown-item" href="#">Photography</a>
+            <a class="dropdown-item" href="#">Camping supplies</a>
+            <a class="dropdown-item" href="#">Clothes</a>
+          </div>
+      <div id="rentmessag">   
+        <h1 class="rentedmessage" id="rentedmessage" >You have successfully rented OBD2 Scanner</h1>
+        <button onclick="returnMain()" id="button_start">Back</button>
+      </div> 
+        <div id="squareGrid" class="squareGrid">
+          <div id="item" class="item">
+            <p class="item-text" id="name">OBD2 Scanner</p>
+            <p class="item-text" id="price">5$/hr</p> 
+            <img class="item-text" src="https://imgur.com/4uQhob7.png" id="product-image"></img>
+            <button onclick="rent()" id="rent-button">Rent now</button>
+          </div>
+          <div id="item" class="item">
+            <p class="item-text" id="name">OBD2 Scanner</p>
+            <p class="item-text" id="price">5$/hr</p> 
+            <img class="item-text" src="https://imgur.com/4uQhob7.png" id="product-image"></img>
+            <button onclick="rent()" id="rent-button">Rent now</button>
+          </div>
+          <div id="item" class="item">
+            <p class="item-text" id="name">OBD2 Scanner</p>
+            <p class="item-text" id="price">5$/hr</p> 
+            <img class="item-text" src="https://imgur.com/4uQhob7.png" id="product-image"></img>
+            <button onclick="rent()" id="rent-button">Rent now</button>
+          </div>
+          </div>
+      </div>
+      
+      
+        <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <h5><i class="fa fa-road"></i> RENTLY</h5>
+              <div class="row">
+                <div class="col-6">
+                  <ul class="list-unstyled">
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Benefits</a></li>
+                    <li><a href="">Partners</a></li>
+                    <li><a href="">Team</a></li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <ul class="list-unstyled">
+                    <li><a href="">Documentation</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Legal Terms</a></li>
+                    <li><a href="">About</a></li>
+                  </ul>
+                </div>
+              </div>
+              <ul class="nav">
+                <li class="nav-item"><a href="" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a></li>
+                <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+                <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-github fa-lg"></i></a></li>
+                <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
+              </ul>
+              <br>
+            </div>
+            <div class="col-md-2">
+              <h5 class="text-md-right">Contact Us</h5>
+              <hr>
+            </div>
+            <div class="col-md-5">
+              <form action="mailto:rentlyinfo@gmail.com">
+                <fieldset class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                </fieldset>
+                <fieldset class="form-group">
+                  <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+                </fieldset>
+                <fieldset class="form-group text-xs-right">
+                  <button type="button" class="btn btn-secondary-outline btn-lg">Send</button>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </div>
+    <div id="rently-login-screen">
+      	<header class="header">
+		<div id="cool-colour">
+			<img id="small_logo" onclick="loadMessages();" src="https://imgur.com/zN31G8q.png"></img>
+		</div>
+	</header>
+
+		<div id="screen-authentication">
+		<img src="https://imgur.com/7AMJpDL.png" id="main_screen_logo" alt="logo">
+			<p></p>
+
+		
+			<input placeholder="Email" id="email" autocomplete="off">
+		  <p></p>
+		  <input placeholder="Password" id="password" type="password">
+		  <p></p>
+		  <button id="button_start" onclick="signup();">Signup</button>
+		  <button id="button_start" onclick="login();">Login</button>
+		  <p id="feedback"></p>    
+		</div> 
+
+	    <footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<h5><i class="fa fa-road"></i> RENTLY</h5>
+						<div class="row">
+							<div class="col-6">
+								<ul class="list-unstyled">
+									<li><a href="">Product</a></li>
+									<li><a href="">Benefits</a></li>
+									<li><a href="">Partners</a></li>
+									<li><a href="">Team</a></li>
+								</ul>
+							</div>
+							<div class="col-6">
+								<ul class="list-unstyled">
+									<li><a href="">Documentation</a></li>
+									<li><a href="">Support</a></li>
+									<li><a href="">Legal Terms</a></li>
+									<li><a href="">About</a></li>
+								</ul>
+							</div>
+						</div>
+						<ul class="nav">
+							<li class="nav-item"><a href="" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a></li>
+							<li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+							<li class="nav-item"><a href="" class="nav-link"><i class="fa fa-github fa-lg"></i></a></li>
+							<li class="nav-item"><a href="" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
+						</ul>
+						<br>
+					</div>
+					<div class="col-md-2">
+						<h5 class="text-md-right">Contact Us</h5>
+						<hr>
+					</div>
+					<div class="col-md-5">
+						<form action="mailto:rentlyinfo@gmail.com">
+							<fieldset class="form-group">
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+							</fieldset>
+							<fieldset class="form-group">
+								<textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+							</fieldset>
+							<fieldset class="form-group text-xs-right">
+								<button type="button" class="btn btn-secondary-outline btn-lg">Send</button>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</footer>
+    </div>
+
+      <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+      <script src="script.js"></script>
+	</body>
+</html>
