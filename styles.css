@@ -317,6 +317,7 @@ form-group text-xs-right {
   padding-top: 5em;
   display: none;
   text-align: center;
+  padding-bottom: 3em;
 }
 
 @media (min-width: 450px){
