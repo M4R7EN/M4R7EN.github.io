@@ -241,3 +241,10 @@ function loadMessages() {
     });
   });
 }
+
+document.addEventListener("keypress", function (event) {
+  var key = event.keyCode || event.which;
+  if (event.keyCode == 13) {
+    sendMessage();
+  }
+});
